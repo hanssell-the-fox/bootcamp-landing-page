@@ -110,3 +110,40 @@ header .menu {
 #we-are img {
   min-width: 26.25rem;
 }
+
+.external-container {
+  background-color: #122a57;
+  width: 100%;
+}
+
+#services {
+  flex-direction: column;
+  padding-top: 3.16rem;
+  padding-bottom: 6.25rem;
+}
+
+#services h2 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 1.25rem;
+}
+
+.list-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list-services .service {
+  text-align: center;
+}
+
+.service a {
+  text-decoration: none;
+  text-align: center;
+  width: 7.5rem;
+  background-color: #ffffff;
+  border-radius: 3.2rem;
+  height: 3.12rem;
+  line-height: 3.12rem;
+}
