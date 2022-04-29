@@ -34,6 +34,7 @@ header .list-items {
   max-width: 16.25rem;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .list-items li a {
@@ -42,4 +43,33 @@ header .list-items {
 
 header .menu {
   justify-content: space-between;
+}
+
+.presentation {
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.presentation .text-presentation {
+  min-height: 12.5rem;
+}
+
+.text-presentation h1 {
+  color: #122a57;
+  font-size: 48px;
+  margin-bottom: .8rem;
+}
+
+.text-presentation a {
+  background-color: #122a57;
+  text-decoration: none;
+  border-radius: 1.8rem;
+  color: #ffffff;
+  width: 13.75rem;
+  display: block;
+  text-align: center;
+  height: 3.12rem;
+  line-height: 3.12rem;
+  margin: .8rem 0;
 }
