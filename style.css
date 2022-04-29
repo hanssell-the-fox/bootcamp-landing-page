@@ -73,3 +73,31 @@ header .menu {
   line-height: 3.12rem;
   margin: .8rem 0;
 }
+
+#we-are {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#we-are h2 {
+  font: 32px;
+  color: #122a57;
+  display: flex;
+  margin-bottom: 1.15rem;
+  align-items: center;
+}
+
+#we-are h2::before {
+  content: "";
+  height: 3.12rem;
+  width: 0.31rem;
+  margin-right: 0.31rem;
+  background-color: #122a57;
+  position: relative;
+}
+
+#we-are p {
+  margin-bottom: 0.62rem;
+  width: 90%;
+}
