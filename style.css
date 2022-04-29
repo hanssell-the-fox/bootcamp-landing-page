@@ -13,3 +13,33 @@ ul {
 ul li a {
   text-decoration: none;
 }
+
+.flex-container {
+  display: flex;
+  max-width: 62rem;
+  margin: auto;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #122a57;
+  height: 6.25rem;
+  color: #ffffff;
+}
+
+header .list-items {
+  display: flex;
+  max-width: 16.25rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.list-items li a {
+  color: #ffffff;
+}
+
+header .menu {
+  justify-content: space-between;
+}
