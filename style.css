@@ -131,7 +131,7 @@ header .menu {
 .list-services {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .list-services .service {
@@ -146,4 +146,17 @@ header .menu {
   border-radius: 3.2rem;
   height: 3.12rem;
   line-height: 3.12rem;
+  font-size: 14px;
+  padding: .35rem .8rem;
+}
+
+.service p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.service img {
+  width: 80%;
+  margin: auto;
 }
