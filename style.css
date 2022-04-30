@@ -24,6 +24,7 @@ div img {
   max-width: 62rem;
   margin: auto;
   width: 100%;
+  min-width: 320px;
 }
 
 header {
@@ -240,3 +241,51 @@ footer {
   justify-content: space-between;
   color: #ffffff;
 }
+
+/* 
+ * Mobile
+ */
+
+ @media(max-width: 992px) {
+   .flex-container {
+     flex-direction: column;
+   }
+
+   .presentation {
+     flex-direction: column-reverse;
+   }
+
+   .presentation .text-presentation {
+     width: 100%;
+   }
+
+   #we-are {
+     flex-direction: column-reverse;
+   }
+
+   #we-are img {
+     min-width: 320px;
+     margin: auto;
+   }
+
+   .list-services {
+     flex-direction: column;
+   }
+
+   .service img {
+     width: 50%;
+     margin: auto;
+   }
+
+   .plans-list {
+     flex-direction: column;
+     align-items: flex-start;
+   }
+
+   .plans-list .plan {
+     max-width: 90%;
+     margin: auto;
+     width: 100%;
+     margin-bottom: 20px;
+   }
+ }
