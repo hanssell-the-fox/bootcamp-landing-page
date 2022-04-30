@@ -228,3 +228,15 @@ header .menu {
   background-color: #122a57;
   margin-right: 5px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #122a57;
+  height: 70px;
+}
+
+.footer {
+  justify-content: space-between;
+  color: #ffffff;
+}
