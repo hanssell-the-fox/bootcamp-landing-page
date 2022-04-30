@@ -66,7 +66,7 @@ header .menu {
   margin-bottom: .8rem;
 }
 
-.text-presentation a {
+.text-presentation a, .btn {
   background-color: #122a57;
   text-decoration: none;
   border-radius: 1.8rem;
@@ -159,4 +159,72 @@ header .menu {
 .service img {
   width: 80%;
   margin: auto;
+}
+
+#service-plans {
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+#service-plans h2 {
+  font-size: 32px;
+}
+
+.plans-list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.plan {
+  flex: 1;
+  border: 5px solid #122a57;
+  margin-right: 1.25rem;
+  padding: .8rem ;
+  max-width: 240px;
+}
+
+.plan .btn {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.plan h3 {
+  font-size: 24px;;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plan h3::after {
+  content: "";
+  background-color: #122a57;
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.plan ul li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.plan ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #122a57;
+  margin-right: 5px;
 }
